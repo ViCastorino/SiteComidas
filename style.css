@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+}
+nav a:hover{
+    background-color: red;
+    color: black;
+}
+.banner{
+    height: 400px;
+    background-image: url("fundo3.jpg");
+    background-size: cover;
+}
+.banner h1, h4{
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+h1{
+    font-size: 45pt;
+    margin: 0;
+    padding-top: 80px;
+}
+h4{
+    font-size: 20pt;
+    margin: 0;
+    padding-top: 0px;
+}
+
+.cadastro{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+.botao{
+    background-color: aquamarine;
+    color: black;
+}
+.botao:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;   
+}
+::placeholder{
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+ 
+}
+.rodape{
+    justify-content: space-around;
+    display: flex;
+}
+.twit{
+    background-image: url("icontt.png");
+    width: 170px;
+    height: 170px;
+}
+.twit:hover{
+    background-image: url("icontt2.png");
+    height: 270px;
+    width: 270px;
+}
